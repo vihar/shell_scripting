@@ -2,4 +2,4 @@
 
 name=`whoami`
 echo "Hello, $name!"
-exit 0
+#exit 0

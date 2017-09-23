@@ -6,4 +6,3 @@ do
 sum=$(($sum + $x))
 done
 echo "The sum is $sum."
-exit 0
