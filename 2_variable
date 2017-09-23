@@ -1,0 +1,4 @@
+#!/bin/sh
+
+name=Vihar
+echo "Hello, $name!"

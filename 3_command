@@ -1,0 +1,8 @@
+#!/bin/sh
+
+rm junk
+
+echo "The return code from rm was $?"
+touch junk
+rm junk
+echo "$?"
