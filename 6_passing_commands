@@ -1,0 +1,5 @@
+#!/bin/sh
+
+name=`whoami`
+echo "Hello, $name!"
+exit 0
