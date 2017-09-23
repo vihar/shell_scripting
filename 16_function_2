@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+# This is a global variable
+name="Global Name"
+
+demLocal() {
+ 	local name="Local Name"
+ 	echo "This is inside Function, $name"
+ 	return
+}
+
+demLocal
+ 	
+echo "$name"

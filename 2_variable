@@ -1,4 +1,6 @@
 #!/bin/sh
 
-name=Vihar
+name="Vihar"
+num=1
 echo "Hello, $name!"
+echo "number, $num"

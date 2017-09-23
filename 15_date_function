@@ -1,0 +1,10 @@
+#!/bin/bash
+
+getDate() {
+ 		
+ 	# Get current date and time
+ 	date
+ 		
+ }
+ 	
+getDate
