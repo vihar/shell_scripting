@@ -1,0 +1,10 @@
+echo "Hello World"
+clear
+cd ..
+cd Desktop
+cd face_recognition
+source venv/bin/activate
+cd ..
+cd facerec
+python main.py
+

@@ -1,0 +1,10 @@
+#!/bin/sh
+#  compile
+if [ "$SRCDIR" = "" ]
+then
+echo "using default source directory"
+  SRCDIR=$HOME/src
+else
+echo "using source directory $SRCDIR" fi
+g77 $SRCDIR/$1
+exit $?
